@@ -1,5 +1,5 @@
 evm-network-id: 100
-price-multiplier: 1.5
+price-multiplier: 1
 private-key-encrypted: "YU-tFJFczN3JPVoJu0pQKSbWoeiCFPjKiTXMoFnJxDDxUNX-BBXc6ZHkcQcHVjdOd6ZcEnU1o2jU3F-i05mGJPmhF2rhQYXkNlxu5U5fZMMcgxJ9INhAmktzRBUxWncg4L1HOalZIoQ7gm3nk1a84g"
 time-labels:
   - name: "Time: <1 Hour"
@@ -31,9 +31,27 @@ priority-labels:
 default-labels:
   - "Time: <1 Hour"
   - "Priority: 0 (Normal)"
+command-settings:
+  - name: start
+    enabled: true
+  - name: stop
+    enabled: true
+  - name: wallet
+    enabled: true
+  - name: payout
+    enabled: true
+  - name: multiplier
+    enabled: true
+  - name: query
+    enabled: true
+  - name: allow
+    enabled: true
+  - name: autopay
+    enabled: true
 payment-permit-max-price: 1000
 comment-incentives: true
-max-concurrent-bounties: 2
+disable-analytics: true
+max-concurrent-assigns: 2
 promotion-comment: "\n<h6>If you enjoy the DevPool experience, please follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a> to show your support. It helps a lot!</h6>"
 register-wallet-with-verification: false
 assistive-pricing: true
