@@ -54,3 +54,4 @@ incentives:
       word: 0.1
 enable-access-control:
   label: true
+  organization: true
