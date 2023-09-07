@@ -44,11 +44,7 @@ assistive-pricing: true
 incentives:
   comment:
     elements:
-      code: 5
-      img: 5
-      li: 0.5
-      a: 0.5
-      blockquote: 0
+      h1: 5
     totals:
       word: 0.1
 enable-access-control:
