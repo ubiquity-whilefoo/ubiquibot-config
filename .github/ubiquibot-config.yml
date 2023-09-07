@@ -46,7 +46,6 @@ incentives:
     elements:
       code: 5
       img: 5
-      h1: 1
       li: 0.5
       a: 0.5
       blockquote: 0
