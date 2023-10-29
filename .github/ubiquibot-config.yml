@@ -9,11 +9,7 @@ keys:
 
 # timers:
 #   -
-payments:
-  evmNetworkId: 100
-  basePriceMultiplier: 1
-  issueCreatorMultiplier: 3
-  maxPermitPrice: 1000
+
 commands:
   incentives:
     comment:
