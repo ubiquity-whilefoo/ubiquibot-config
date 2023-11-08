@@ -15,7 +15,7 @@ payments:
   basePriceMultiplier: 1
   issueCreatorMultiplier: 3
   maxPermitPrice: 1000
-  a: 2
+  a: 3
 
 incentives:
   comment:
