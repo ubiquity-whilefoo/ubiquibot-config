@@ -14,7 +14,7 @@ payments:
   evmNetworkId: 100
   basePriceMultiplier: 1
   issueCreatorMultiplier: 3
-  maxPermitPrice: 10000
+  maxPermitPrice: "a"
   a: 3
 
 incentives:
