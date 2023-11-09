@@ -16,6 +16,9 @@ payments:
   issueCreatorMultiplier: 3
   maxPermitPrice: 10000
 
+timers:
+  reviewDelayTolerance: "2 days"
+
 incentives:
   comment:
     elements:
