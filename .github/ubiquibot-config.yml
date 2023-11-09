@@ -17,7 +17,7 @@ payments:
   maxPermitPrice: 10000
 
 timers:
-  reviewDelayTolerance: "3 months"
+  reviewDelayTolerance: "4 months"
 
 incentives:
   comment:
