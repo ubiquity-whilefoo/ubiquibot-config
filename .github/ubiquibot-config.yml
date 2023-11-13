@@ -14,11 +14,10 @@ payments:
   evmNetworkId: 100
   basePriceMultiplier: 1
   issueCreatorMultiplier: 3
-  maxPermitPrice: "a"
-  a: 1
+  maxPermitPrice: 1000
 
 timers:
-  reviewDelayTolerance: "5 months"
+  reviewDelayTolerance: "5 weeks"
 
 incentives:
   comment:
