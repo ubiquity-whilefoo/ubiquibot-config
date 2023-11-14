@@ -3,13 +3,10 @@
 keys:
   evmPrivateEncrypted: ytOIGj-ECNFVu7c2PjeE08nySalxdHklTPbrPp5pJmIrcsSEOnCLhTO5xIfGdMDcKj28EUd3K43CB6KJYPNHHyHQTZAYpjvd-pgpWSG6PEsyYQ_OMYPDY-aLFbkM4JgN7rQB_SBDp4iUFqgrRfW8RA
 
-# logs:
-#   -
-# features:
-#   assistivePricing: true
+features:
+  assistivePricing: true
+  staleTaskTime: 30 days
 
-# timers:
-#   -
 payments:
   evmNetworkId: 100
   basePriceMultiplier: 1
@@ -17,7 +14,10 @@ payments:
   maxPermitPrice: 1000
 
 timers:
-  reviewDelayTolerance: "5 weeks"
+  reviewDelayTolerance: 30 days
+  taskStaleTimeoutDuration: 30 days
+  taskFollowUpDuration: 3.5 days
+  taskDisqualifyDuration: 7 days
 
 incentives:
   comment:
@@ -36,7 +36,7 @@ incentives:
       i: 0
     totals:
       word: 0.1
-      
+
 labels:
   time:
     - name: "Time: <1 Hour"
@@ -50,8 +50,26 @@ labels:
     - name: "Priority: 3 (High)"
     - name: "Priority: 4 (Urgent)"
     - name: "Priority: 5 (Emergency)"
-    
+
 miscellaneous:
-  promotionComment: "###### If you enjoy the DevPool experience, please follow [Ubiquity on GitHub](https://github.com/ubiquity) and star [this repo](https://github.com/ubiquity/devpool-directory) to show your support. It helps a lot!"
+  promotionComment: "<h6>If you've enjoyed your experience in the DevPool, we'd appreciate your support. Follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a>. Your endorsement means the world to us and helps us grow!</h6><h6>We are excited to announce that the DevPool and UbiquiBot are now available to partners! Our ideal collaborators are globally distributed crypto-native organizations, who actively work on open source on GitHub, and excel in research & development. If you can introduce us to the repository maintainers in these types of companies, we have a special bonus in store for you!</h6>"
   maxConcurrentTasks: 2
   registerWalletWithVerification: false
+
+commands:
+  - name: start
+    enabled: true
+  - name: stop
+    enabled: true
+  - name: wallet
+    enabled: true
+  - name: payout
+    enabled: true
+  - name: multiplier
+    enabled: true
+  - name: query
+    enabled: true
+  - name: autopay
+    enabled: true
+  - name: ask
+    enabled: true
