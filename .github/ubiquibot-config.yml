@@ -56,20 +56,4 @@ miscellaneous:
   maxConcurrentTasks: 3
   registerWalletWithVerification: false
 
-commands:
-  - name: start
-    enabled: true
-  - name: stop
-    enabled: true
-  - name: wallet
-    enabled: true
-  - name: payout
-    enabled: true
-  - name: multiplier
-    enabled: true
-  - name: query
-    enabled: true
-  - name: autopay
-    enabled: true
-  - name: ask
-    enabled: true
+disabledCommands: []
